@@ -3,7 +3,8 @@
 ```
 Initialize an ifstream file pointer
 Initialize a stringstream object
-Initialize several string variables, Int: IntA and IntB 
+Initialize need variables, IntA, IntB, text
+Initialize temporary variables for the ints: sIntA and sIntB
 
 If file is opened: 
     Loop through each line of the code
