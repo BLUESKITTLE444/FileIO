@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     // Initialize file pointer
-    ifstream file("data.cvsc");
+    ifstream file("data.csv");
 
     // Initialize stringstream object
     stringstream ss;
@@ -48,8 +48,9 @@ int main() {
 
             // Print the text "total" number of times
             for (int i = 0; i < total; i++) {
-                cout << text << endl;
+                cout << text << "  ";
             }
+	    cout << endl;
         }
 
         // Close the file
